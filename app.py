@@ -38,7 +38,7 @@ settings, input_keys = load_setting()
 
 @st.cache(show_spinner=False)
 def get_model(name='DeepSurv'):
-    model = load_model('./{}.zip'.format(name))
+    model = load_model('./output/{}.zip'.format(name))
     return model
 
 
@@ -76,7 +76,7 @@ if 'patients' not in st.session_state:
 if 'display' not in st.session_state:
     st.session_state['display'] = 1
 if 'model' not in st.session_state:
-    st.session_state['model'] = 'deepsurv'
+    st.session_state['model'] = 'DeepSurv'
 deepsurv_model = get_model(st.session_state['model'])
 sidebar_code = get_code()
 def plot_survival():
