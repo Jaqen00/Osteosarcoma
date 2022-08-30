@@ -1,4 +1,4 @@
-# Deep learning models for predicting the survival of patients with osteosarcoma based on a surveillance, epidemiology, and end results analysis
+# Machine Learning-Based Individualized Survival Prediction Model for Prognosis in Osteosarcoma: Data From the SEER Database
 
 Data preprocessing is handled by R code: [data_preprocessing.R](data_preprocessing.R)
 
