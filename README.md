@@ -1,6 +1,6 @@
 # Machine Learning-Based Individualized Survival Prediction Model for Prognosis in Osteosarcoma: Data From the SEER Database
 
-Data preprocessing is handled by R code: [data_preprocessing.R](data_preprocessing.R)
+Data preprocessing is handled by R code: [data_preprocessing.R](data_preprocessing.R), which imports codes for data cleaning from [preprocessing.R](preprocessing.R)
 
 Model construction, hyperparameters tuning and evaluation are handled with [pysurvival](https://github.com/square/pysurvival), [scikit-learn](https://github.com/scikit-learn/scikit-learn) and [lifelines](https://github.com/CamDavidsonPilon/lifelines) packages: [ModelDevelopment-Without_tunning_output.ipynb](ModelDevelopment-Without_tunning_output.ipynb)
 
