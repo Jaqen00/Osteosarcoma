@@ -17,6 +17,6 @@ Then run [ModelDevelopmentWithoutTuningOutput.ipynb](ModelDevelopmentWithoutTuni
 
 Run ```streamlit run app.py``` in terminal to open the web application locally.
 
-[Online web application](https://share.streamlit.io/whuh-ml/chondrosarcoma/Predict/app.py)
+[Online web application](https://whuh-ml-osteosarcoma-app-yeovvi.streamlitapp.com/)
 
 [Paper link](https://pubmed.ncbi.nlm.nih.gov/)(To be updated)
