@@ -2,7 +2,7 @@
 
 Data preprocessing is handled by R code: [data_preprocessing.R](data_preprocessing.R)
 
-Model construction, hyperparameters tuning and evaluation are handled with [pysurvival](https://github.com/square/pysurvival), [scikit-learn](https://github.com/scikit-learn/scikit-learn) and [lifelines](https://github.com/CamDavidsonPilon/lifelines) packages: [ModelDevelopment.ipynb](ModelDevelopment.ipynb)
+Model construction, hyperparameters tuning and evaluation are handled with [pysurvival](https://github.com/square/pysurvival), [scikit-learn](https://github.com/scikit-learn/scikit-learn) and [lifelines](https://github.com/CamDavidsonPilon/lifelines) packages: [ModelDevelopment-Without_tunning_output.ipynb](ModelDevelopment-Without_tunning_output.ipynb)
 
 Web application based on [streamlit](https://github.com/streamlit/streamlit) package: [app.py](app.py)
 
