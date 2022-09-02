@@ -13,7 +13,7 @@ The [data](/data/data_surv.csv) after data preprocessing is provided. To reprodu
 git clone https://github.com/WHUH-ML/Osteosarcoma.git
 pip install -r requirements.txt
 ```
-Then run [ModelDevelopmentWithoutTuningOutput.ipynb](ModelDevelopmentWithoutTuningOutput.ipynb) in Jupyter Notebook.
+Then run [ModelDevelopment-Without_tunning_output.ipynb](ModelDevelopment-Without_tunning_output.ipynb) in Jupyter Notebook.
 
 Run ```streamlit run app.py``` in terminal to open the web application locally.
 
